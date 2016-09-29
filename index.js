@@ -15,7 +15,7 @@ const callbacks = new Map();
 const init = memoize(async() => {
 	await Promise.all(cssPrefixes.map(
 		prefix => insertCss(`
-			@keyframes ${prefix}${animationName} {
+			@${prefix}keyframes ${animationName} {
 				from {
 					opacity : 0.9999
 				}
