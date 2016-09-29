@@ -1,6 +1,6 @@
 {
   "name": "@tiddo/on-insert",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Module to detect insertion of DOM elements.",
   "main": "index.js",
   "author": "Tiddo Langerak <tiddolangerak@gmail.com> (https://github.com/TiddoLangerak/)",
